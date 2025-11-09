@@ -42,6 +42,5 @@ def check_strength(password):
         return "medium"
     else:
         return "strong"
-
 user_password = input("Input password: ")
 print(f"Strength: {check_strength(user_password)}")
